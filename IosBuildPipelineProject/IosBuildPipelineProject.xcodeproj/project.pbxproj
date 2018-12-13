@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C118A0921C2602C00D77F66 /* HomeViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C118A0821C2602C00D77F66 /* HomeViewControllerTests.m */; };
 		4C71038121BA8B4E009F4E39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C71038021BA8B4E009F4E39 /* AppDelegate.m */; };
 		4C71038421BA8B4E009F4E39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C71038321BA8B4E009F4E39 /* ViewController.m */; };
 		4C71038721BA8B4E009F4E39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C71038521BA8B4E009F4E39 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		4C71038F21BA8B4F009F4E39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C71038E21BA8B4F009F4E39 /* main.m */; };
 		4C71039921BA8B4F009F4E39 /* IosBuildPipelineProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C71039821BA8B4F009F4E39 /* IosBuildPipelineProjectTests.m */; };
 		4C7103A421BA8B4F009F4E39 /* IosBuildPipelineProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7103A321BA8B4F009F4E39 /* IosBuildPipelineProjectUITests.m */; };
+		4C8FF01C21C127A7008B51A3 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8FF01B21C127A7008B51A3 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C118A0821C2602C00D77F66 /* HomeViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewControllerTests.m; sourceTree = "<group>"; };
 		4C71037C21BA8B4E009F4E39 /* IosBuildPipelineProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IosBuildPipelineProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C71037F21BA8B4E009F4E39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4C71038021BA8B4E009F4E39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +54,8 @@
 		4C71039F21BA8B4F009F4E39 /* IosBuildPipelineProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IosBuildPipelineProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C7103A321BA8B4F009F4E39 /* IosBuildPipelineProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IosBuildPipelineProjectUITests.m; sourceTree = "<group>"; };
 		4C7103A521BA8B4F009F4E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C8FF01A21C127A7008B51A3 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		4C8FF01B21C127A7008B51A3 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +111,8 @@
 				4C71038221BA8B4E009F4E39 /* ViewController.h */,
 				4C71038321BA8B4E009F4E39 /* ViewController.m */,
 				4C71038521BA8B4E009F4E39 /* Main.storyboard */,
+				4C8FF01A21C127A7008B51A3 /* HomeViewController.h */,
+				4C8FF01B21C127A7008B51A3 /* HomeViewController.m */,
 				4C71038821BA8B4F009F4E39 /* Assets.xcassets */,
 				4C71038A21BA8B4F009F4E39 /* LaunchScreen.storyboard */,
 				4C71038D21BA8B4F009F4E39 /* Info.plist */,
@@ -118,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				4C71039821BA8B4F009F4E39 /* IosBuildPipelineProjectTests.m */,
+				4C118A0821C2602C00D77F66 /* HomeViewControllerTests.m */,
 				4C71039A21BA8B4F009F4E39 /* Info.plist */,
 			);
 			path = IosBuildPipelineProjectTests;
@@ -265,6 +273,7 @@
 				4C71038421BA8B4E009F4E39 /* ViewController.m in Sources */,
 				4C71038F21BA8B4F009F4E39 /* main.m in Sources */,
 				4C71038121BA8B4E009F4E39 /* AppDelegate.m in Sources */,
+				4C8FF01C21C127A7008B51A3 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C71039921BA8B4F009F4E39 /* IosBuildPipelineProjectTests.m in Sources */,
+				4C118A0921C2602C00D77F66 /* HomeViewControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +447,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = IosBuildPipelineProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = IosBuildPipelineProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
